@@ -1,0 +1,38 @@
+{
+  "name": "systemjs-course-cards",
+  "version": "1.0.0",
+  "description": "This is an example package from the systemjs jpms course I'm working on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/struckm/systemjs-course-cards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/struckm/systemjs-course-cards/issues"
+  },
+  "homepage": "https://github.com/struckm/systemjs-course-cards#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "jspm": "^0.16.15",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.2",
+    "karma-junit-reporter": "^0.3.8"
+  },
+  "jspm": {
+    "dependencies": {
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
