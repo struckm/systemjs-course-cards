@@ -10,12 +10,6 @@ module.exports = function (config) {
     files: [
     ],
 
-    proxies: {
-      // '/node_modules': '/base/node_modules',
-      // '/base/cards': '/base/app/cards',
-      // '/base/jspm_packages': '/base/app/jspm_packages'
-    },
-
     jspm: {
       serveFiles: [
         'src/*.js',
